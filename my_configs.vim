@@ -9,12 +9,12 @@ set expandtab
 
 filetype plugin on
 
-let mapleader = "²"
+let mapleader = "<"
 map <leader>o :BufExplorer<cr>
 map <leader>f :MRU<CR>
 let g:ctrlp_map = '<c-f>'
 map <leader>j :PeepOpen<cr>
-map <leader>nn :NERDTreeTabsToggle<cr>
+map <leader>n <plug>NERDTreeTabsToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<cr>
 map <leader>nf :NERDTreeTabsFind<cr>
 map <leader>nt :tabn<cr>
